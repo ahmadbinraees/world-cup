@@ -39,3 +39,34 @@ header a{
     font-weight: 500;
     display: block;
 }
+/*-----------------------------------------------------------------
+                            MAIN
+-------------------------------------------------------------------*/
+
+/*---------------------- ASIDE BUTTON -----------------------------*/
+aside{
+    background-color: rgba(0, 0, 0, 0.904);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    width: 235px;
+    margin-right: 20px;
+}
+aside a{
+    text-decoration: none;
+    border: none;
+    color: black;
+    text-align: center;
+    border-radius: 8px;
+    height: 40px;
+    width: 200px;
+    margin: 18px 18px ;
+    padding: 15px 0 0 0;
+    font-weight: 700;
+    background-color: white;
+}
+#red-button{
+    color: whitesmoke;
+    background-color: red;
+}
