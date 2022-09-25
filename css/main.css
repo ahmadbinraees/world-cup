@@ -79,3 +79,21 @@ aside a{
     grid-template-columns: repeat(3, 1fr);
     gap: 8px;
 }
+/*----------------------- GRID CARD ---------------------------------*/
+.grid-card{
+    padding-bottom: 10px;
+}
+.grid-card button{
+    display: block;
+}
+.card-btm-sec{
+    padding: 15px 5px 0 15px;
+}
+.icon{
+    display: flex;
+    gap: 10px;
+}
+.icon small{
+    position: relative;
+    top: 2px;
+}
