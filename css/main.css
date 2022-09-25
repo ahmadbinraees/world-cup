@@ -73,3 +73,9 @@ aside a{
     color: whitesmoke;
     background-color: red;
 }
+/*--------------------- GRID CONTAINER ------------------------------*/
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 8px;
+}
