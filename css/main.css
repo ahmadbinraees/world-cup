@@ -1,3 +1,41 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+/*-----------------------------------------------------------------
+                            HEADER
+-------------------------------------------------------------------*/
+header{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.904);
+    border-radius: 30px;
+    color: white;
+    padding: 50px 50px 0;
+    width: auto;
+    margin: 50px 75px;
+    margin-bottom: 90px;
+}
+.half-width{
+    width: 50%;
+}
+.half-width img{
+    width: 100%;
+    height: 100%;
+}
+header h1{
+    font-size: 4vw;
+}
+header p{
+    font-weight: 100;
+    font-size: smaller;
+}
+header a{
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 0 10px 30px;
+    width: 145px;
+    background-color: red;
+    color: whitesmoke;
+    font-weight: 500;
+    display: block;
+}
