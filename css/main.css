@@ -1,5 +1,6 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 /*-----------------------------------------------------------------
                             HEADER
@@ -96,4 +97,37 @@ aside a{
 .icon small{
     position: relative;
     top: 2px;
+}
+/*-----------------------------------------------------------------
+                            FOOTER
+-------------------------------------------------------------------*/
+footer{
+    background-color: rgba(0, 0, 0, 0.904);
+    color: whitesmoke;
+    text-align: center;
+    height: 370px;
+    margin-top: 50px;
+    display: grid;
+    align-content: center;
+}
+.footer-a{
+    margin-top: 25px;
+}
+footer a{
+    text-decoration: none;
+    margin: 0 15px;
+    color: rgb(179, 179, 179);
+}
+.social{
+    margin: 30px 0 0 0;
+    font-size: 30px;
+}
+.fa-facebook{
+    color: #3b5998;
+}
+.fa-twitter{
+    color: #1DA1F2;
+}
+.fa-instagram{
+    color: #bc2a8d;
 }
