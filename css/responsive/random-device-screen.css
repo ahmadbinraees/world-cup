@@ -64,6 +64,9 @@
                             MOBILE
 --------------------------------------------------------------*/
 @media screen and (max-width:414px){
+    body{
+        margin: 0;
+    }
     header{
         flex-direction: column;
         margin-left: 10px;
